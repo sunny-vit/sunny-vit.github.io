@@ -93,6 +93,9 @@ var Model = {  };
 		Model.UI.videoDom.play() ;
 		log(Model.i);
 	}
-
+Model.UI.ssDom.onclick=function(){
+	Model.UI.videoDom.currentTime=parseFloat(Model.UI.videoSNDom.value);
+			Model.UI.videoDom.play();
+	}
 </script>-->//-->
 </html>
